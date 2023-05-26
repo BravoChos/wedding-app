@@ -1,0 +1,94 @@
+{
+    "wedding": {
+        "id": 0,
+        "date": "2023-12-25T13:00:00",
+        "location": {
+            "lat": 37.28163212324522,
+            "lng": 127.0303329958705,
+            "name": "Nobelesse Wedding Convesion 7th floor",
+            "address": "128, Paldalmun-ro, Uman-dong, Paldal-gu, Suwon-si, Gyeonggi-do, South Korea.",
+            "link": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,506715,1050669&rt1=&rt2=%EC%88%98%EC%9B%90%EB%85%B8%EB%B8%94%EB%A0%88%EC%8A%A4%EC%9B%A8%EB%94%A9%EC%BB%A8%EB%B2%A4%EC%85%98&rtIds=,9846217",
+            "waytocome": {
+                "metro": ["Translation: Shuttle bus service operates from Exit 5 of Suwon City Hall Station on the Bundang Line."],
+                "bus": [
+                    "Suwon(4번출구) → 동수원병원 하차10, 11-1, 37, 720-2, 83-1 (약 20분)",
+                    "Jamsil(4번출구) → 월드컵경기장 하차1007-1 (약 1시간 20분)",
+                    "Sadang(4번출구) → 월드컵경기장 하차7000, 7001 (약 1시간)",
+                    "Gangnam(7번출구) → 월드컵경기장 하차3002, 3007, 3008 (약 1시간)"
+                ]
+            }
+        },
+        "groom": {
+            "name": "Tony Stark",
+            "account": {
+                "bankName": "BOA",
+                "accountNumber": "1-435-356-12433",
+                "kakaopayLink": "https://qr.kakaopay.com/Ej8HNpNJZ"
+            },
+            "phoneNumber": "171545532323",
+            "parents": [
+                {
+                    "name": "Howard Stark",
+                    "account": {
+                        "bankName": "BOA",
+                        "accountNumber": "233331-51-061400"
+                    },
+                    "phoneNumber": "111153242422"
+                },
+                {
+                    "name": "Maria Stark",
+                    "account": {
+                        "bankName": "BOA",
+                        "accountNumber": "352-1252-4559-90"
+                    },
+                    "phoneNumber": "111154912252"
+                }
+            ]
+        },
+        "bride": {
+            "name": "Pepper Potts",
+            "account": {
+                "bankName": "Chase",
+                "accountNumber": "352-0952-4669-11"
+            },
+            "phoneNumber": "121022345124",
+            "parents": [
+                {
+                    "name": "Mr. Potts",
+                    "account": {
+                        "bankName": "Capital One",
+                        "accountNumber": "3333-1112-11932"
+                    },
+                    "phoneNumber": "131024333423"
+                },
+                {
+                    "name": "Ms. Potts",
+                    "account": {
+                        "bankName": "Capital One",
+                        "accountNumber": "222-19-8842-472"
+                    },
+                    "phoneNumber": "131099928884"
+                }
+            ]
+        },
+        "message": {
+            "intro": "Join us to celebrate our wedding.",
+            "invitation": "You are cordially invited\nto celebrate the union of Tony and Pepper\nas they exchange vows and\nstart their journey together as one"
+        },
+        "galleryImages": [
+            "wedding_01",
+            "wedding_02",
+            "wedding_03",
+            "wedding_04",
+            "wedding_05",
+            "wedding_06",
+            "wedding_07",
+            "wedding_08",
+            "wedding_09",
+            "wedding_10",
+            "wedding_11",
+            "wedding_12"
+        ],
+        "attendCount": 0
+    }
+}
