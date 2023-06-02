@@ -1,19 +1,17 @@
-// import classNames from 'classnames/bind'
+import classNames from 'classnames/bind'
 
-// import styles from './Video.module.scss'
+import styles from './Video.module.scss'
 import Section from '../shared/Section'
 
-// const cx = classNames.bind(styles)
+const cx = classNames.bind(styles)
 
 function Video() {
   return (
-    <Section>
-      {/* <Section className={cx('container')}> */}
-      Video
-      {/* <video autoPlay loop muted poster="/assets/poster.jpg">
+    <Section className={cx('container')}>
+      <video autoPlay loop muted poster="/assets/poster.jpg">
         <source src="/assets/main.webm" type="video/webm" />
         <source src="/assets/main.mp4" type="video/mp4" />
-      </video> */}
+      </video>
     </Section>
   )
 }
