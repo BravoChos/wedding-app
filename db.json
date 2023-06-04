@@ -76,18 +76,18 @@
             "invitation": "You are cordially invited\nto celebrate the union of Tony and Pepper\nas they exchange vows and\nstart their journey together as one"
         },
         "galleryImages": [
-            "wedding_01",
-            "wedding_02",
-            "wedding_03",
-            "wedding_04",
-            "wedding_05",
-            "wedding_06",
-            "wedding_07",
-            "wedding_08",
-            "wedding_09",
-            "wedding_10",
-            "wedding_11",
-            "wedding_12"
+            "/assets/images/wedding_01.jpg",
+            "/assets/images/wedding_02.jpg",
+            "/assets/images/wedding_03.jpg",
+            "/assets/images/wedding_04.jpg",
+            "/assets/images/wedding_05.jpg",
+            "/assets/images/wedding_06.jpg",
+            "/assets/images/wedding_07.jpg",
+            "/assets/images/wedding_08.jpg",
+            "/assets/images/wedding_09.jpg",
+            "/assets/images/wedding_10.jpg",
+            "/assets/images/wedding_11.jpg",
+            "/assets/images/wedding_12.jpg"
         ],
         "attendCount": 0
     }
