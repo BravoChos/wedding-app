@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Section from '@shared/Section'
 import styles from './ImageGallery.module.scss'
 
-// import ImageViewer from '../ImageViewer'
+import ImageViewer from '../ImageViewer'
 
 // import generateImageUrl from '@/utils/generateImageUrl'
 
@@ -13,15 +13,15 @@ const cx = classNames.bind(styles)
 function ImageGallery({ images }: { images: string[] }) {
   const [selectedIdx, setSelectedIdx] = useState(-1)
 
-  // const open = selectedIdx > -1
+  const open = selectedIdx > -1
 
   const handleSelectedImage = (idx: number) => {
     setSelectedIdx(idx)
   }
 
-  // const handleClose = () => {
-  //   setSelectedIdx(-1)
-  // }
+  const handleClose = () => {
+    setSelectedIdx(-1)
+  }
 
   return (
     <>
@@ -31,9 +31,9 @@ function ImageGallery({ images }: { images: string[] }) {
             <li
               key={idx}
               className={cx('wrap-image')}
-              // onClick={() => {
-              //   handleSelectedImage(idx)
-              // }}
+              onClick={() => {
+                handleSelectedImage(idx)
+              }}
             >
               <img
                 // src={generateImageUrl({
@@ -42,7 +42,7 @@ function ImageGallery({ images }: { images: string[] }) {
                 //   option: 'w_240,h_240,c_fill,q_auto',
                 // })}
                 src={src}
-                alt="이미지"
+                alt="사진첩 이미지"
               />
               {/* <picture>
                 <source
@@ -68,12 +68,12 @@ function ImageGallery({ images }: { images: string[] }) {
         </ul>
         ImageGallery
       </Section>
-      {/* <ImageViewer
+      <ImageViewer
         images={images}
         open={open}
         selectedIdx={selectedIdx}
         onClose={handleClose}
-      /> */}
+      />
     </>
   )
 }

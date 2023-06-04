@@ -12914,6 +12914,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"swiper@npm:^11.1.12":
+  version: 11.1.12
+  resolution: "swiper@npm:11.1.12"
+  checksum: 0d8047dbbf79c35f3515d12c77dc5f82d911add0b7e4ca74a8d351cb572c3a327adc3b10ac10f11571205b8071037537edcb81763808a60e4b6d0a81efebc851
+  languageName: node
+  linkType: hard
+
 "symbol-tree@npm:^3.2.4":
   version: 3.2.4
   resolution: "symbol-tree@npm:3.2.4"
@@ -13891,6 +13898,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     react-scripts: "npm:5.0.1"
     sass: "npm:^1.69.5"
+    swiper: "npm:^11.1.12"
     typescript: "npm:^4.4.2"
     web-vitals: "npm:^2.1.0"
   languageName: unknown
